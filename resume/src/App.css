@@ -1,0 +1,123 @@
+/* .App {
+  text-align: center;
+} */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.input_form{
+  max-width: 40% !important;
+  margin-left: 30%;
+  margin-top: 15%;
+}
+.input_form button{
+  width: 100%
+}
+
+/* view */
+.head h1{
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+}
+.head .lab{
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 30px;
+  width: 35%;
+
+}
+.head .headlab{
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 30px;
+
+}
+.head h2{
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 35px;
+}
+.row_1 .obj{
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 20px;
+  
+}
+.row_2 .labwidth p{
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 25px;
+  
+}
+.labwidth p{
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 25px
+}
+.tablefont th{
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 25px;
+
+}
+.tablefont td{
+  font-family: "poppins";
+  font-style: normal;
+  font-size: 20px;
+
+}
+.row_2 .margint{
+  margin-top: 50px;
+}
+hr{
+
+      border: 1px solid black;
+      
+  
+}
+
+.head-bar{
+  margin-left: 5%!important;
+  background-color: greenyellow;
+}
+.main-res{
+  width: 75% !important;
+  margin: 0,auto;
+}
+.log_button{
+  text-align: end;
+}
