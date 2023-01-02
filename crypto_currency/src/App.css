@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,300&display=swap');
+
+
+a{
+  text-decoration: none!important;
+}
+.head{
+  padding: 35px;
+  font-family: Montserrat;
+  color:gold;
+  font-size: 25px;
+}
+.head a{
+  color:gold;
+}
+.head a:hover{
+  color:gold;
+}
+/*banner  */
+.bannerimg{
+  background-image: url('./images/banner2.jpg');
+  height: 400px;
+  padding-top: 50px ;
+  text-align: center;
+  flex-direction: "coloumn";
+  justify-content: space-around;
+}
+.banner-content{
+  color: white;
+  font-family: Montserrat;
+  height: 40%;
+  flex-direction: "column";
+  justify-content: "center";
+  text-align: "center"
+}
+.banner-content h2{
+  font-size: 80px!important;
+}
+.cointable{
+  background-color: gold;
+  color: black;
+  height: 60px;
+
+}
+
+/* single coin */
+.coinleft{
+  margin-left: 40px;
+  font-family: Montserrat;
+  border-right: 2px solid white;
+}
+
+.selectbutton {
+  border: "1px solid gold";
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Montserrat";
+  cursor: "pointer";
+  background-color: "gold";
+  outline: auto;
+  color:gold;
+  
+}
+.chart{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+}
+
+/* pagination */
+pagination ul li button{
+  color:gold
+}
