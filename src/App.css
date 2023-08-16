@@ -1,0 +1,184 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.marg-left{
+  margin-left: 3% ;
+}
+.inline{
+  display: inline !important; 
+}
+
+/* header */
+.navfont{
+  font-family: "poppins";
+  font-size: 28px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  
+}
+.navleft li:nth-child(2){
+    margin-left: 30%;
+}
+.navleft li:last-child{
+  margin-left: 30%;
+}
+.navleftlast{
+  margin-left: 35%;
+}
+
+
+
+.navfont .navhover li:hover{
+  padding: 3px;
+  border-radius: 8px;
+  background-color: yellowgreen;
+}
+.navfont img{
+width: 30%;
+}
+/* home */
+.imgheighthome{
+  height: 250px;
+}
+.imgheight{
+  height: 300px;
+}
+/* cart */
+.imgheightcart{
+  height:250px
+}
+
+/* order */
+.order_card_cart{
+  margin-left: 2%;
+}
+
+.orderview{
+  width: 80%!important;
+  margin: 0,auto!important;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+
+
+.card .order {
+    max-width: 500px;
+    margin: auto;
+    color: black;
+    border-radius: 20 px;
+}
+
+p .order {
+    margin: 0px;
+}
+
+.container .h8 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+
+.btn.btn.btn-primary .order:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.btn.btn-primary:hover .fas.fa-arrow-right {
+    transform: translate(15px);
+    transition: transform 0.2s ease-in;
+}
+
+.form-control {
+    color: white;
+    background-color: #223C60;
+    border: 2px solid transparent;
+    height: 60px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: #0C4160;
+    border: 2px solid #2d4dda;
+    box-shadow: none;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+}
+.orderwidth{
+  width: 65% !important;
+}
+/* hotels */
+.hotel-name{
+  font-family: 'poppins';
+  font-size: 30px;
+}
+
+Link{
+  text-decoration:none!important
+}
+/* footer */
+.foot{
+  background-color:lightgrey;
+}
+.cart-img{
+  position: relative;
+
+}
+.cart-remove-btn{
+  position: absolute;
+}
+.qty-add-btn{
+  position: absolute;
+}
